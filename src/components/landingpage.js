@@ -9,8 +9,22 @@ class LandingPage extends Component {
     render() {
         return (
             <div style={{}}>
-                <h1>Hi Everyone</h1>
-                <p>What is up!</p>
+                <section style={{
+                    background: "#87a2ff",
+                }}>
+                    <h1>Hi Everyone</h1>
+                    <p>What is up!</p>
+                </section>
+                <section >
+                    <h1>Hi Everyone</h1>
+                    <p>What is up!</p>
+                </section>
+                <section style={{
+                    background: "#87a2ff",
+                }}>
+                    <h1>Hi Everyone</h1>
+                    <p>What is up!</p>
+                </section>
             </div>
         )
     }
