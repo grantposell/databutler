@@ -10,19 +10,10 @@ class LandingPage extends Component {
         return (
             <div style={{}}>
                 <section style={{
-                    background: "#87a2ff",
+                    background: "rgb(0,54,246)",
+                    background: "linear-gradient(80deg, rgba(0,54,246,1) 0%, rgba(168,58,41,1) 100%)", height:'82.25vh'
                 }}>
-                    <h1>Hi Everyone</h1>
-                    <p>What is up!</p>
-                </section>
-                <section >
-                    <h1>Hi Everyone</h1>
-                    <p>What is up!</p>
-                </section>
-                <section style={{
-                    background: "#87a2ff",
-                }}>
-                    <h1>Hi Everyone</h1>
+                    <h1 style={{marginTop: '0px', color: 'white', }}>Hi Everyone</h1>
                     <p>What is up!</p>
                 </section>
             </div>
